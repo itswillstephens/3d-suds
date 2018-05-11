@@ -14,6 +14,10 @@ addEventListener('click', function() {
     init();
 });
 
+addEventListener('touchstart', function() {
+    init();
+});
+
 addEventListener('mouseout', function() {
     mouse.x = undefined;
     mouse.y = undefined;
