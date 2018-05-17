@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    cursor: -webkit-grabbing; cursor: grabbing;
 }
 body {
   background: url(images/background.jpg) no-repeat center center fixed; 
